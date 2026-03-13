@@ -27,4 +27,35 @@ color: orange;
 img{
 margin-top:20px;
 border-radius:10px;
+
+}
+
+.carro{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.carro img{
+    width: 250px;
+}
+
+.info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: rgba(0,0,0,0.8);
+    color: white;
+
+    padding: 10px;
+    font-size: 14px;
+
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.carro:hover .info{
+    opacity: 1;
 }
